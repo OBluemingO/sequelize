@@ -63,6 +63,9 @@ app.get("/init-model", async (req: Request, res: Response) => {
     res.send('mock')
 })
 
+// git uncommit
+// git reset --soft HEAD~1
+
 app.listen(port, () => {
     console.log(`[server]: Server is running at http://localhost:${port}`);
 });
